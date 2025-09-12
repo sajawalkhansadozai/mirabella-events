@@ -33559,7 +33559,7 @@ if(e.b){q=t.f
 d=q.a(q.a(B.ch.ha(a2)).h(0,"data"))
 c=A.as(d.h(0,"message"))
 if(c!=null&&c.length!==0){b=A.aEY(d,"assertiveness")
-e.a.Vg(c,B.LR[b==null?0:b])}}a.f9(a3,B.ch.cd(!0))
+e.a.Vg(c,B.LS[b==null?0:b])}}a.f9(a3,B.ch.cd(!0))
 return
 case"flutter/navigation":q=a.gdr().b
 p=t.e8
@@ -37362,7 +37362,7 @@ m=A.di(s.h(0,"fontWeightIndex"))
 l=m!=null?A.b2s(m):"normal"
 r=A.aGt(s.h(0,"fontSize"))
 if(r==null)r=null
-p=new A.anI(new A.a73(r,l,A.as(s.h(0,"fontFamily")),B.LN[o],B.lh[n]))
+p=new A.anI(new A.a73(r,l,A.as(s.h(0,"fontFamily")),B.LO[o],B.lh[n]))
 break
 case"TextInput.clearClient":p=B.Fo
 break
@@ -45285,7 +45285,7 @@ n=A.v7(k,s.aL(0.1),k,k,k,k,k,s,k,k,k,k,k,k,k,k,k)
 q=A.b([A.aI(k,new A.v6(k,k,k,A.dF(B.Js,k,k,i?20:24),k,new A.apa(a,i),"Sign out",k,k,n,B.a3e,k),B.l,k,k,k,k,k,new A.R(0,0,q,0),k,k,k,k)],o)
 o=r.gkT().b
 n=o
-return A.aLF(new A.zx(p,q,r,0,j.b,s,new A.Id(k,o,1/0,56+n),k),j.k2,new A.F4(this.d,B.LC,k),k,k)}}
+return A.aLF(new A.zx(p,q,r,0,j.b,s,new A.Id(k,o,1/0,56+n),k),j.k2,new A.F4(this.d,B.LD,k),k,k)}}
 A.apa.prototype={
 $0(){var s=0,r=A.O(t.H),q=this,p,o,n
 var $async$$0=A.J(function(a,b){if(a===1)return A.L(b,r)
@@ -45837,7 +45837,7 @@ case 2:return A.L(o.at(-1),r)}})
 return A.N($async$y6,r)}}
 A.ard.prototype={
 $2(b2,b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b=b3.b,a=b>=980,a0=A.b7(b2,c,t.w).w,a1=d.b,a2=d.c,a3=d.d,a4=A.ac(c,a3?20:28,c),a5=a?40:0,a6=a3?32:40,a7=a?(b-40)/2:b,a8=d.e,a9=A.ac(c,a3?12:16,c),b0=A.ac(c,a3?12:16,c),b1=t.p
-a7=A.ac(A.av(A.b([new A.tq("\ud83d\udce7","Email",B.Mq,a3,a8,c),a9,new A.tq("\ud83d\udcde","Phone",B.Mw,a3,a8,c),b0,new A.tq("\ud83d\udccd","Address",B.LE,a3,a8,c),A.ac(c,a3?12:16,c),new A.tq("\ud83d\udd50","Business Hours",B.NJ,a3,a8,c)],b1),B.o,B.k,B.n),c,a7)
+a7=A.ac(A.av(A.b([new A.tq("\ud83d\udce7","Email",B.Mq,a3,a8,c),a9,new A.tq("\ud83d\udcde","Phone",B.Mw,a3,a8,c),b0,new A.tq("\ud83d\udccd","Address",B.LF,a3,a8,c),A.ac(c,a3?12:16,c),new A.tq("\ud83d\udd50","Business Hours",B.NJ,a3,a8,c)],b1),B.o,B.k,B.n),c,a7)
 if(a)b=(b-40)/2
 if(a8)a9=16
 else a9=a3?18:20
@@ -45986,9 +45986,9 @@ if(a2)p=12
 else p=a3?16:24
 o=a3?40:60
 n=t.p
-m=A.av(A.b([B.U0,A.ac(b,a3?16:24,b),A.dm(new A.aay(a3,a2))],n),B.o,B.k,B.n)
+m=A.av(A.b([B.TT,A.ac(b,a3?16:24,b),A.dm(new A.aay(a3,a2))],n),B.o,B.k,B.n)
 l=a3?40:56
-k=A.aI(b,new A.bO(a,A.av(A.b([B.U7,A.ac(b,a3?12:16,b),A.av(A.b([new A.mY("1995","Founded in Islamabad","First boutique weddings & family celebrations across the twin cities.",a3,a2,b),new A.mY("2001","Corporate Debut","First AGM & awards night; introduced run-of-show discipline & AV partners.",a3,a2,b),new A.mY("2008","Destination North","Bhurban / Nathia Gali weddings with full guest logistics & vendor network.",a3,a2,b),new A.mY("2015","In-house Show Calling","Production, stage management & creative decks brought under one roof.",a3,a2,b),new A.mY("2020","Hybrid & Digital","Live streaming and hybrid programs for summits and launches.",a3,a2,b),new A.mY("2024","National Recognition","Multiple industry awards for service, design and execution excellence.",a3,a2,b)],n),B.o,B.k,B.n)],n),B.o,B.k,B.n),b),B.l,b,b,new A.aQ(b,b,b,b,b,B.ea,B.A),b,b,b,new A.R(p,l,p,l),b,b,b)
+k=A.aI(b,new A.bO(a,A.av(A.b([B.U7,A.ac(b,a3?12:16,b),A.av(A.b([new A.mY("2017","Founded in Islamabad","First boutique weddings & family celebrations across the twin cities.",a3,a2,b),new A.mY("2018","Corporate Debut","First AGM & awards night; introduced run-of-show discipline & AV partners.",a3,a2,b),new A.mY("2019","Destination North","Bhurban / Nathia Gali weddings with full guest logistics & vendor network.",a3,a2,b),new A.mY("2020","In-house Show Calling","Production, stage management & creative decks brought under one roof.",a3,a2,b),new A.mY("2021","Hybrid & Digital","Live streaming and hybrid programs for summits and launches.",a3,a2,b),new A.mY("2024","National Recognition","Multiple industry awards for service, design and execution excellence.",a3,a2,b)],n),B.o,B.k,B.n)],n),B.o,B.k,B.n),b),B.l,b,b,new A.aQ(b,b,b,b,b,B.ea,B.A),b,b,b,new A.R(p,l,p,l),b,b,b)
 l=A.av(A.b([B.U5,A.ac(b,a3?20:28,b),A.dm(new A.aaz(a3))],n),B.o,B.k,B.n)
 j=a3?32:48
 i=a3?q.w:q.r
@@ -46027,7 +46027,7 @@ $1(a){return A.ac(a,null,this.a)},
 $S:135}
 A.aaA.prototype={
 $2(a,b){var s=null,r=b.b,q=this.a,p=q?16:24,o=r>=900?(r-p)/2:r,n=this.b
-return A.dv(B.aA,A.b([A.ac(new A.tF("Training & Craft","We mentor junior coordinators and vendors, share safety protocols, and codify SOPs so craft outlives individuals.",B.LU,q,n,s),s,o),A.ac(new A.tF("Responsible Operations","We minimize waste, repurpose florals, opt for efficient lighting, and work with suppliers who share our standards.",B.Ly,q,n,s),s,o)],t.p),B.au,p,p)},
+return A.dv(B.aA,A.b([A.ac(new A.tF("Training & Craft","We mentor junior coordinators and vendors, share safety protocols, and codify SOPs so craft outlives individuals.",B.LV,q,n,s),s,o),A.ac(new A.tF("Responsible Operations","We minimize waste, repurpose florals, opt for efficient lighting, and work with suppliers who share our standards.",B.Ly,q,n,s),s,o)],t.p),B.au,p,p)},
 $S:24}
 A.aaB.prototype={
 $0(){return A.bm(this.a,!1).c_("/portfolio",null,t.X)},
@@ -46097,7 +46097,7 @@ $S:149}
 A.NY.prototype={
 D(a){var s=null,r=1200,q=A.b7(a,s,t.w).w,p=A.bb(a,B.eJ),o=p==null?s:p.gb7().gfC(),n=q.ip(new A.dL(B.d.bL(o==null?1:o,1,1.25)))
 p=t.p
-return A.fe(A.mp(!1,A.kX(A.av(A.b([new A.Hk(B.M9,"Mirabella Events","Islamabad Premier Event Planners","From Mehndi to Walima, corporate summits to cultural nights \u2014 we craft seamless experiences across Islamabad & Rawalpindi.",new A.aaM(a),new A.aaN(a),s),A.aI(s,new A.bO(r,A.av(A.b([B.TX,B.mk,A.dm(new A.aaO())],p),B.b8,B.k,B.n),s),B.l,B.hi,s,s,s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([B.U2,B.mk,A.dm(new A.aaP())],p),B.o,B.k,B.n),s),B.l,B.jZ,s,s,s,s,s,B.oV,s,s,1/0),A.aI(s,new A.bO(r,A.av(A.b([B.TU,B.Bu,A.dm(new A.aaQ())],p),B.o,B.k,B.n),s),B.l,B.hi,s,s,s,s,s,B.ID,s,s,1/0),A.aI(s,new A.bO(r,A.av(A.b([B.TS,B.bw,new A.Hl(B.M1,new A.aaR(a),s)],p),B.b8,B.k,B.n),s),B.l,B.cL,s,s,s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(B.M8,B.o,B.k,B.n),s),B.l,s,s,new A.aQ(s,s,s,s,s,B.ea,B.A),s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([A.X("Trusted by leading venues & partners in Islamabad\u2013Rawalpindi",s,s,s,s,A.v(a).ok.w.aV(B.b7),B.Z,s,s),B.bk,B.a3W],p),B.o,B.k,B.n),s),B.l,B.d8,s,s,s,s,s,B.kk,s,s,s),A.aI(s,new A.bO(r,A.dv(B.bK,B.Ni,B.au,16,16),s),B.l,B.f2,s,s,s,s,s,B.dZ,s,s,s),A.aI(s,new A.bO(r,A.dv(B.bK,A.b([A.X("Ready to plan your Islamabad event?",s,s,s,s,A.v(a).ok.r.h8(B.e,B.a3),s,s,s),A.AT(B.lc,B.a0A,new A.aaS(a),A.lF(s,s,B.e,s,s,s,s,s,s,B.z,s,s,B.p0,s,new A.bM(A.b1(12),B.q),s,s,s,s,s))],p),B.eE,12,18),s),B.l,s,s,new A.aQ(s,s,s,s,s,B.bf,B.A),s,s,s,B.kl,s,s,s),A.aI(s,B.PY,B.l,B.dT,s,s,s,s,s,B.Iz,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([B.U9,B.cW,new A.fk(A.v(a).Wh(B.H1,B.KK),B.a37,s)],p),B.o,B.k,B.n),s),B.l,B.f2,s,s,s,s,s,B.hH,s,s,s),B.l7],p),B.b8,B.k,B.n),s,B.S,s,s,!0,B.a9),B.aa,!1),n)}}
+return A.fe(A.mp(!1,A.kX(A.av(A.b([new A.Hk(B.M9,"Mirabella Events","Islamabad Premier Event Planners","From Mehndi to Walima, corporate summits to cultural nights \u2014 we craft seamless experiences across Islamabad & Rawalpindi.",new A.aaM(a),new A.aaN(a),s),A.aI(s,new A.bO(r,A.av(A.b([B.TY,B.mk,A.dm(new A.aaO())],p),B.b8,B.k,B.n),s),B.l,B.hi,s,s,s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([B.U2,B.mk,A.dm(new A.aaP())],p),B.o,B.k,B.n),s),B.l,B.jZ,s,s,s,s,s,B.oV,s,s,1/0),A.aI(s,new A.bO(r,A.av(A.b([B.TV,B.Bu,A.dm(new A.aaQ())],p),B.o,B.k,B.n),s),B.l,B.hi,s,s,s,s,s,B.ID,s,s,1/0),A.aI(s,new A.bO(r,A.av(A.b([B.TS,B.bw,new A.Hl(B.M1,new A.aaR(a),s)],p),B.b8,B.k,B.n),s),B.l,B.cL,s,s,s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(B.M8,B.o,B.k,B.n),s),B.l,s,s,new A.aQ(s,s,s,s,s,B.ea,B.A),s,s,s,B.hH,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([A.X("Trusted by leading venues & partners in Islamabad\u2013Rawalpindi",s,s,s,s,A.v(a).ok.w.aV(B.b7),B.Z,s,s),B.bk,B.a3W],p),B.o,B.k,B.n),s),B.l,B.d8,s,s,s,s,s,B.kk,s,s,s),A.aI(s,new A.bO(r,A.dv(B.bK,B.Ni,B.au,16,16),s),B.l,B.f2,s,s,s,s,s,B.dZ,s,s,s),A.aI(s,new A.bO(r,A.dv(B.bK,A.b([A.X("Ready to plan your Islamabad event?",s,s,s,s,A.v(a).ok.r.h8(B.e,B.a3),s,s,s),A.AT(B.lc,B.a0A,new A.aaS(a),A.lF(s,s,B.e,s,s,s,s,s,s,B.z,s,s,B.p0,s,new A.bM(A.b1(12),B.q),s,s,s,s,s))],p),B.eE,12,18),s),B.l,s,s,new A.aQ(s,s,s,s,s,B.bf,B.A),s,s,s,B.kl,s,s,s),A.aI(s,B.PY,B.l,B.dT,s,s,s,s,s,B.Iz,s,s,s),A.aI(s,new A.bO(r,A.av(A.b([B.U9,B.cW,new A.fk(A.v(a).Wh(B.H1,B.KK),B.a37,s)],p),B.o,B.k,B.n),s),B.l,B.f2,s,s,s,s,s,B.hH,s,s,s),B.l7],p),B.b8,B.k,B.n),s,B.S,s,s,!0,B.a9),B.aa,!1),n)}}
 A.aaM.prototype={
 $0(){return A.bm(this.a,!1).c_("/services",null,t.X)},
 $S:0}
@@ -46127,7 +46127,7 @@ else if(m<480)r=0.7
 else{q=m<700?0.75:0.85
 r=q}p=m<420?16:24
 q=m<600?8:0
-o=A.amt(B.Nt,!0,!0,!0)
+o=A.amt(B.LB,!0,!0,!0)
 return new A.nH(new A.amv(s,p,p,r),o,new A.R(q,0,q,0),B.a9,!1,n,n,B.wE,!0,n,4,B.S,n,n,B.G,B.an,n)},
 $S:404}
 A.aaQ.prototype={
@@ -46135,7 +46135,7 @@ $2(a,b){var s,r,q=b.b
 if(q<700)s=1
 else s=q<1100?2:3
 r=t.Df
-r=A.U(new A.T(B.LW,new A.aaJ((q-24*(s-1))/s),r),r.i("a8.E"))
+r=A.U(new A.T(B.No,new A.aaJ((q-24*(s-1))/s),r),r.i("a8.E"))
 return A.dv(B.aA,r,B.au,24,24)},
 $S:24}
 A.aaJ.prototype={
@@ -46499,8 +46499,8 @@ else{l=h?24:32
 q=l}p=i?40:60
 o=i?16:24
 l=t.Zf
-n=A.U(new A.aS(A.b([B.Ts,B.Tp,B.Ti,B.Ty,B.Tr,B.Tf,B.Tj,B.To,B.Tk,B.Tv,B.Tm,B.Tz,B.Tu,B.Th,B.Tc,B.Tq,B.Tw,B.Te,B.Td,B.Tn,B.Tt,B.Tx,B.Tl,B.Tg],t.nh),new A.ax0(this),l),l.i("y.E"))
-return A.fe(A.kX(new A.an(new A.R(q,p,q,p),new A.bO(1200,A.av(A.b([new A.dd("Portfolio of Excellence","A curated showcase of our finest celebrations",m,m),A.ac(m,o,m),new A.Zm(B.LQ,this.d,new A.ax1(this),i,m),A.ac(m,o,m),new A.Zn(n,k,j,i,h,m)],t.p),B.o,B.k,B.n),m),m),m,B.S,m,m,m,B.a9),r)}}
+n=A.U(new A.aS(A.b([B.Tr,B.Tj,B.Ts,B.Tx,B.Th,B.Td,B.Tk,B.Tq,B.Tl,B.Tw,B.Tn,B.Ty,B.Tu,B.Ti,B.Tc,B.Tt,B.Tz,B.Te,B.Tg,B.Tp,B.Tv,B.To,B.Tm,B.Tf],t.nh),new A.ax0(this),l),l.i("y.E"))
+return A.fe(A.kX(new A.an(new A.R(q,p,q,p),new A.bO(1200,A.av(A.b([new A.dd("Portfolio of Excellence","A curated showcase of our finest celebrations",m,m),A.ac(m,o,m),new A.Zm(B.LR,this.d,new A.ax1(this),i,m),A.ac(m,o,m),new A.Zn(n,k,j,i,h,m)],t.p),B.o,B.k,B.n),m),m),m,B.S,m,m,m,B.a9),r)}}
 A.ax0.prototype={
 $1(a){var s=this.a.d
 return s==="all"||a.a[0]===s},
@@ -46622,10 +46622,10 @@ m=A.av(A.b([B.U8,B.bk,A.dm(new A.ahI(B.MU,a7,a6))],n),B.o,B.k,B.n)
 l=a7?32:40
 k=a6?12:16
 j=a6?12:16
-i=A.av(A.b([B.TV,B.c9,A.dm(new A.ahJ(B.NA,a7))],n),B.o,B.k,B.n)
+i=A.av(A.b([B.TW,B.c9,A.dm(new A.ahJ(B.NA,a7))],n),B.o,B.k,B.n)
 h=a7?32:48
 g=a6?12:16
-f=A.aI(a2,new A.bO(a3,A.av(A.b([B.TZ,B.Bs,A.dm(new A.ahK(a7,a6))],n),B.o,B.k,B.n),a2),B.l,B.d8,a2,a2,a2,a2,a2,new A.R(g,h,g,h),a2,a2,a2)
+f=A.aI(a2,new A.bO(a3,A.av(A.b([B.U_,B.Bs,A.dm(new A.ahK(a7,a6))],n),B.o,B.k,B.n),a2),B.l,B.d8,a2,a2,a2,a2,a2,new A.R(g,h,g,h),a2,a2,a2)
 h=a7?32:44
 g=a6?12:16
 e=A.av(A.b([B.U4,B.c9,new A.a09(B.NE,a7,a2)],n),B.b8,B.k,B.n)
@@ -46774,10 +46774,10 @@ $S:129}
 A.RH.prototype={
 D(a){var s,r,q=null,p="Book this service",o=1200,n=A.b7(a,q,t.w).w,m=n.ip(new A.dL(B.d.bL(n.gb7().ap(1),0.9,1.25))),l=A.dm(new A.alU()),k=t.s,j=t.p
 k=A.av(A.b([B.U1,B.mk,A.dm(new A.alV(A.b([A.Eq(A.b(["Complete coordination","Venue & design","Vendor management","Run-of-show & timelines"],k),p,"Timeless ceremonies and grand celebrations with classic elegance.","assets/images/services/wedding.jpg",new A.alW(a),"PKR 800k","PKR 3.5M","Luxury Wedding Planning"),A.Eq(A.b(["Conferences","Launches","Board meetings","Award nights"],k),p,"Professional gatherings, conferences & business celebrations.","assets/images/services/corporate.jpg",new A.alY(a),"PKR 500k","PKR 2.0M","Executive Corporate Events"),A.Eq(A.b(["Anniversaries","Birthdays","Reunions","Holidays"],k),p,"Milestones crafted with grace & sophisticated touches.","assets/images/services/social.jpg",new A.alZ(a),"PKR 300k","PKR 1.2M","Social Celebrations"),A.Eq(A.b(["Show flow & scripting","Stage & AV","VIP hospitality","Press handling"],k),p,"Prestigious ceremonies honoring achievements with grandeur.","assets/images/services/awards.jpg",new A.am_(a),"PKR 700k","PKR 2.5M","Award Ceremonies"),A.Eq(A.b(["Menu curation","Entertainment","Staging & lights","Guest journey"],k),p,"World-class cuisine & refined luxury evenings.","assets/images/services/gala.jpg",new A.am0(a),"PKR 600k","PKR 2.2M","Exclusive Gala Dinners"),A.Eq(A.b(["Graduations","Retirements","Achievements","Memorials"],k),p,"Meaningful events marking life\u2019s achievements.","assets/images/services/milestone.jpg",new A.am1(a),"PKR 200k","PKR 900k","Milestone Celebrations")],t.pB)))],j),B.o,B.k,B.n)
-s=A.aI(q,new A.bO(o,A.av(A.b([B.TT,B.bk,A.dm(new A.am2())],j),B.o,B.k,B.n),q),B.l,B.d8,q,q,q,q,q,B.dZ,q,q,q)
+s=A.aI(q,new A.bO(o,A.av(A.b([B.TU,B.bk,A.dm(new A.am2())],j),B.o,B.k,B.n),q),B.l,B.d8,q,q,q,q,q,B.dZ,q,q,q)
 r=t.ut
 r=A.U(new A.T(B.M4,new A.am3(),r),r.i("a8.E"))
-return A.fe(A.mp(!1,A.kX(A.av(A.b([l,new A.an(B.oV,new A.bO(o,k,q),q),s,new A.bO(o,new A.an(B.kk,A.av(A.b([B.TY,B.bw,A.kX(A.cc(r,B.o,B.k,B.n,0),q,B.S,B.co,B.h9,q,B.aN)],j),B.o,B.k,B.n),q),q),A.aI(q,new A.bO(o,A.av(A.b([B.Uc,B.Bs,A.dm(new A.am4())],j),B.o,B.k,B.n),q),B.l,B.hi,q,q,q,q,q,B.dZ,q,q,q),A.aI(q,new A.bO(o,A.av(B.M6,B.o,B.k,B.n),q),B.l,B.f2,q,q,q,q,q,B.dZ,q,q,q),A.aI(q,new A.bO(o,A.dv(B.bK,A.b([A.X("Ready to start planning?",q,q,q,!0,A.v(a).ok.r.h8(B.e,B.a3),B.Z,q,q),A.AT(B.lc,B.a0z,new A.alX(a),A.lF(q,q,B.e,q,q,q,q,q,q,B.z,q,q,B.p0,q,new A.bM(A.b1(12),B.q),q,q,q,q,q))],j),B.eE,12,18),q),B.l,q,q,new A.aQ(q,q,q,q,q,B.bf,B.A),q,q,q,B.kl,q,q,q),B.l7],j),B.b8,B.k,B.n),q,B.S,q,q,!0,B.a9),B.aa,!1),m)}}
+return A.fe(A.mp(!1,A.kX(A.av(A.b([l,new A.an(B.oV,new A.bO(o,k,q),q),s,new A.bO(o,new A.an(B.kk,A.av(A.b([B.TZ,B.bw,A.kX(A.cc(r,B.o,B.k,B.n,0),q,B.S,B.co,B.h9,q,B.aN)],j),B.o,B.k,B.n),q),q),A.aI(q,new A.bO(o,A.av(A.b([B.Uc,B.Bs,A.dm(new A.am4())],j),B.o,B.k,B.n),q),B.l,B.hi,q,q,q,q,q,B.dZ,q,q,q),A.aI(q,new A.bO(o,A.av(B.M6,B.o,B.k,B.n),q),B.l,B.f2,q,q,q,q,q,B.dZ,q,q,q),A.aI(q,new A.bO(o,A.dv(B.bK,A.b([A.X("Ready to start planning?",q,q,q,!0,A.v(a).ok.r.h8(B.e,B.a3),B.Z,q,q),A.AT(B.lc,B.a0z,new A.alX(a),A.lF(q,q,B.e,q,q,q,q,q,q,B.z,q,q,B.p0,q,new A.bM(A.b1(12),B.q),q,q,q,q,q))],j),B.eE,12,18),q),B.l,q,q,new A.aQ(q,q,q,q,q,B.bf,B.A),q,q,q,B.kl,q,q,q),B.l7],j),B.b8,B.k,B.n),q,B.S,q,q,!0,B.a9),B.aa,!1),m)}}
 A.alU.prototype={
 $2(a,b){var s,r,q=null,p=b.b
 if(p<360)s=28
@@ -46848,7 +46848,7 @@ if(q>=1100)s=4
 else if(q>=740)s=3
 else s=q>=520?2:1
 r=t.Gw
-r=A.U(new A.T(B.LM,new A.alR((q-18*(s-1))/s),r),r.i("a8.E"))
+r=A.U(new A.T(B.LN,new A.alR((q-18*(s-1))/s),r),r.i("a8.E"))
 return A.dv(B.aA,r,B.au,18,18)},
 $S:24}
 A.alR.prototype={
@@ -46898,7 +46898,7 @@ D(a){var s,r=null,q=1200,p=A.b7(a,r,t.w).w,o=A.bb(a,B.eJ)
 o=o==null?r:o.gb7().gfC()
 s=p.ip(new A.dL(B.d.bL(o==null?1:o,1,1.3)))
 o=t.p
-return A.fe(A.kX(A.av(A.b([A.aI(r,new A.bO(q,A.dm(new A.ank()),r),B.l,r,r,new A.aQ(r,r,r,r,r,B.ea,B.A),r,r,r,B.dZ,r,r,1/0),new A.bO(q,new A.an(B.Ix,A.av(B.LJ,B.o,B.k,B.n),r),r),new A.an(B.It,new A.bO(q,A.dm(new A.anl(B.NS)),r),r),A.aI(r,new A.bO(q,A.av(B.NT,B.o,B.k,B.n),r),B.l,B.d8,r,r,r,r,r,B.kk,r,r,r),A.aI(r,new A.bO(q,A.dv(B.bK,A.b([A.X("Want to collaborate with our team?",r,r,r,r,A.v(a).ok.r.h8(B.e,B.a3),B.Z,r,r),A.AT(B.lc,B.a0N,new A.anm(a),A.lF(r,r,B.e,r,r,r,r,r,r,B.z,r,r,B.kn,r,new A.bM(A.b1(12),B.q),r,r,r,r,r))],o),B.eE,12,16),r),B.l,r,r,new A.aQ(r,r,r,r,r,B.bf,B.A),r,r,r,B.kl,r,r,r)],o),B.b8,B.k,B.n),r,B.S,r,r,r,B.a9),s)}}
+return A.fe(A.kX(A.av(A.b([A.aI(r,new A.bO(q,A.dm(new A.ank()),r),B.l,r,r,new A.aQ(r,r,r,r,r,B.ea,B.A),r,r,r,B.dZ,r,r,1/0),new A.bO(q,new A.an(B.Ix,A.av(B.LK,B.o,B.k,B.n),r),r),new A.an(B.It,new A.bO(q,A.dm(new A.anl(B.NS)),r),r),A.aI(r,new A.bO(q,A.av(B.NT,B.o,B.k,B.n),r),B.l,B.d8,r,r,r,r,r,B.kk,r,r,r),A.aI(r,new A.bO(q,A.dv(B.bK,A.b([A.X("Want to collaborate with our team?",r,r,r,r,A.v(a).ok.r.h8(B.e,B.a3),B.Z,r,r),A.AT(B.lc,B.a0N,new A.anm(a),A.lF(r,r,B.e,r,r,r,r,r,r,B.z,r,r,B.kn,r,new A.bM(A.b1(12),B.q),r,r,r,r,r))],o),B.eE,12,16),r),B.l,r,r,new A.aQ(r,r,r,r,r,B.bf,B.A),r,r,r,B.kl,r,r,r)],o),B.b8,B.k,B.n),r,B.S,r,r,r,B.a9),s)}}
 A.ank.prototype={
 $2(a,b){var s,r=null,q=b.b
 if(q<380)s=28
@@ -54775,7 +54775,7 @@ A.Zo.prototype={
 ot(){return this.cy},
 qU(a){this.aH()},
 lL(a){a.toString
-return B.Np[A.bR(a)]},
+return B.Nq[A.bR(a)]},
 m0(){var s=this.y
 return(s==null?A.j(this).i("b0.T").a(s):s).a}}
 A.UT.prototype={
@@ -59277,7 +59277,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.OU.prototype={
-D(a){return A.aLr(new A.pM(B.H3,null,null),B.G,new A.vv(1,B.Ns,new A.bM(B.Dj,B.q)),this.c.X(0,new A.h(0,40.95)),1.25,B.W0)}}
+D(a){return A.aLr(new A.pM(B.H3,null,null),B.G,new A.vv(1,B.Nt,new A.bM(B.Dj,B.q)),this.c.X(0,new A.h(0,40.95)),1.25,B.W0)}}
 A.qN.prototype={
 I(){return"MaterialType."+this.b}}
 A.Cm.prototype={
@@ -79863,7 +79863,7 @@ q.bA()
 q.cw$.E(0,s.gagb())
 s.e=q}return q},
 gQY(){var s=this.f
-return s===$?this.f=new A.asm(1,B.LL,B.cc):s},
+return s===$?this.f=new A.asm(1,B.LM,B.cc):s},
 ghy(){var s=this.z
 s=s==null?null:$.cd().d===s
 return s===!0},
@@ -100166,8 +100166,8 @@ B.NU=s([B.e,B.dT,B.z],t.t_)
 B.KG=new A.kz(B.bm,B.ju,B.bT,B.NU,null,null)
 B.Gk=new A.t(1,0.7215686274509804,0.5803921568627451,0.12156862745098039,B.f)
 B.Ga=new A.t(1,0.9098039215686274,0.7058823529411765,0.6274509803921569,B.f)
-B.Nq=s([B.z,B.Gk,B.Ga],t.t_)
-B.bf=new A.kz(B.cF,B.nf,B.bT,B.Nq,null,null)
+B.Nr=s([B.z,B.Gk,B.Ga],t.t_)
+B.bf=new A.kz(B.cF,B.nf,B.bT,B.Nr,null,null)
 B.KH=new A.vq(B.eO,t.wO)
 B.KI=new A.ON(0,"leading")
 B.q3=new A.ON(1,"trailing")
@@ -100205,12 +100205,12 @@ B.KQ=s([255,216,255],t.Z)
 B.K1=new A.nK(2,"jpeg")
 B.Kc=new A.kt(B.K1,!1,3,"jpeg")
 B.K_=new A.lW(B.KQ,B.Kc,3,"jpeg")
-B.LK=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.JW=new A.lW(B.LK,B.pX,4,"webp")
-B.LB=s([66,77],t.Z)
+B.LL=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.JW=new A.lW(B.LL,B.pX,4,"webp")
+B.LC=s([66,77],t.Z)
 B.K2=new A.nK(4,"bmp")
 B.Ka=new A.kt(B.K2,!1,6,"bmp")
-B.JV=new A.lW(B.LB,B.Ka,5,"bmp")
+B.JV=new A.lW(B.LC,B.Ka,5,"bmp")
 B.Lm=s([B.JZ,B.JY,B.JX,B.K_,B.JW,B.JV],A.ae("B<lW>"))
 B.n4=new A.IM(0,"named")
 B.Cy=new A.IM(1,"anonymous")
@@ -100218,15 +100218,20 @@ B.Lv=s([B.n4,B.Cy],A.ae("B<IM>"))
 B.q8=s(["January","February","March","April","May","June","July","August","September","October","November","December"],t.s)
 B.q9=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Ly=s(["Waste-aware d\xe9cor & packaging","Energy-efficient AV where possible","Local sourcing to support community"],t.s)
+B.Wz=new A.rK(250,"Events Orchestrated",null)
+B.Wx=new A.rK(8,"Years of Excellence",null)
+B.Wy=new A.rK(120,"Venue Partners",null)
+B.WA=new A.rK(99,"Client Satisfaction",null)
+B.LB=s([B.Wz,B.Wx,B.Wy,B.WA],t.p)
 B.a3_=new A.H_(null)
 B.a30=new A.H0(null)
-B.LC=s([B.a3_,B.a30],t.p)
-B.LE=s(["E-18 Mirabella Complex","Gulshan-e-Sehat"],t.s)
+B.LD=s([B.a3_,B.a30],t.p)
+B.LF=s(["E-18 Mirabella Complex","Gulshan-e-Sehat"],t.s)
 B.TR=new A.dd("Our Values","The habits that make our work feel effortless on-site",null,null)
 B.c9=new A.bB(null,8,null,null)
 B.Mf=s(["Courtesy","Precision","Creativity","Reliability","Discretion","Accountability","Hospitality","Safety first"],t.s)
 B.a2K=new A.Gg(B.Mf,null)
-B.LJ=s([B.TR,B.c9,B.a2K],t.p)
+B.LK=s([B.TR,B.c9,B.a2K],t.p)
 B.a3f=new A.hJ(0,1)
 B.a3k=new A.hJ(0.5,1)
 B.a3n=new A.hJ(0.5375,0.75)
@@ -100238,7 +100243,7 @@ B.a3o=new A.hJ(0.8875,0.25)
 B.a3m=new A.hJ(0.925,0.5)
 B.a3g=new A.hJ(0.9625,0.75)
 B.a3h=new A.hJ(1,1)
-B.LL=s([B.a3f,B.a3k,B.a3n,B.a3p,B.a3l,B.a3j,B.a3i,B.a3o,B.a3m,B.a3g,B.a3h],A.ae("B<hJ>"))
+B.LM=s([B.a3f,B.a3k,B.a3n,B.a3p,B.a3l,B.a3j,B.a3i,B.a3o,B.a3m,B.a3g,B.a3h],A.ae("B<hJ>"))
 B.a40=new A.h8("\ud83d\udcdd","Discovery","Brief, budget bands, dates, vision & guest profile.",null)
 B.a3Y=new A.h8("\ud83c\udfa8","Concept","Mood boards, stage sketches, tablescapes & brand cues.",null)
 B.a3Z=new A.h8("\ud83e\udd1d","Vendors","Curated partners, quotes, contracts & approvals.",null)
@@ -100247,42 +100252,35 @@ B.a4_=new A.h8("\ud83c\udfa4","Production","Staging, sound, lighting & show-call
 B.a42=new A.h8("\ud83e\udded","Guest Journey","Wayfinding, hospitality desks & VIP protocol.",null)
 B.a41=new A.h8("\ud83c\udf89","Event Day","White-glove execution & live adjustments.",null)
 B.a43=new A.h8("\ud83d\udce6","Wrap","Vendor settlements, media handover & debrief.",null)
-B.LM=s([B.a40,B.a3Y,B.a3Z,B.a3X,B.a4_,B.a42,B.a41,B.a43],A.ae("B<h8>"))
+B.LN=s([B.a40,B.a3Y,B.a3Z,B.a3X,B.a4_,B.a42,B.a41,B.a43],A.ae("B<h8>"))
 B.fX=new A.my(0,"left")
 B.mr=new A.my(1,"right")
 B.Z=new A.my(2,"center")
 B.iT=new A.my(3,"justify")
 B.aL=new A.my(4,"start")
 B.ms=new A.my(5,"end")
-B.LN=s([B.fX,B.mr,B.Z,B.iT,B.aL,B.ms],A.ae("B<my>"))
+B.LO=s([B.fX,B.mr,B.Z,B.iT,B.aL,B.ms],A.ae("B<my>"))
 B.Md=s([2,1.13276676],t.n)
 B.KX=s([2.18349805,1.20311921],t.n)
 B.Nn=s([2.33888662,1.28698796],t.n)
-B.Nr=s([2.48660575,1.36351941],t.n)
-B.LS=s([2.62226596,1.44717976],t.n)
+B.Ns=s([2.48660575,1.36351941],t.n)
+B.LT=s([2.62226596,1.44717976],t.n)
 B.M_=s([2.7514899,1.53385819],t.n)
 B.MJ=s([3.36298265,1.98288283],t.n)
 B.Mi=s([4.08649929,2.23811846],t.n)
 B.My=s([4.85481134,2.47563463],t.n)
-B.LV=s([5.62945551,2.72948597],t.n)
+B.LW=s([5.62945551,2.72948597],t.n)
 B.Me=s([6.43023796,2.98020421],t.n)
-B.qa=s([B.Md,B.KX,B.Nn,B.Nr,B.LS,B.M_,B.MJ,B.Mi,B.My,B.LV,B.Me],t.zg)
+B.qa=s([B.Md,B.KX,B.Nn,B.Ns,B.LT,B.M_,B.MJ,B.Mi,B.My,B.LW,B.Me],t.zg)
 B.Sg=new A.a3("all","All Events")
 B.T3=new A.a3("wedding","Weddings")
 B.SC=new A.a3("corporate","Corporate")
 B.SY=new A.a3("social","Social")
 B.SL=new A.a3("gala","Galas")
 B.SB=new A.a3("ceremony","Ceremonies")
-B.LQ=s([B.Sg,B.T3,B.SC,B.SY,B.SL,B.SB],t.Wy)
-B.LR=s([B.jA,B.jB],A.ae("B<zz>"))
-B.LU=s(["Intern & vendor training sessions","Health & safety briefings on-site","Documentation & checklists handed down"],t.s)
-B.CJ=new A.eB("\ud83d\udc51","Royal Legacy","Since 1995, serving distinguished clientele with traditional values and sophisticated celebrations.",null)
-B.CK=new A.eB("\ud83c\udfdb\ufe0f","Prestigious Venues","Partnerships with leading hotels, clubs and convention centers across the twin cities.",null)
-B.CO=new A.eB("\u2728","White-Glove Service","Personalized attention, meticulous planning and flawless execution for every detail.",null)
-B.CN=new A.eB("\ud83e\udd1d","Vendor Network","Top-tier caterers, d\xe9cor, AV & performers \u2014 curated, vetted, and managed end-to-end.",null)
-B.CE=new A.eB("\ud83d\udcca","Budget & Timeline","Transparent budgets, approvals & milestone tracking to keep events on time and on budget.",null)
-B.CL=new A.eB("\ud83d\udcde","24/7 Coordination","Dedicated event manager with round-the-clock support from planning to pack-down.",null)
-B.LW=s([B.CJ,B.CK,B.CO,B.CN,B.CE,B.CL],t.h6)
+B.LR=s([B.Sg,B.T3,B.SC,B.SY,B.SL,B.SB],t.Wy)
+B.LS=s([B.jA,B.jB],A.ae("B<zz>"))
+B.LV=s(["Intern & vendor training sessions","Health & safety briefings on-site","Documentation & checklists handed down"],t.s)
 B.E5=new A.bk(0,B.O,B.bp,B.i,16)
 B.qb=s([B.E5],t.V)
 B.LX=s(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],t.s)
@@ -100316,10 +100314,10 @@ B.M5=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635
 B.Ub=new A.dd("Service FAQs","Timelines, vendor flexibility and what\u2019s included in planning",B.e,null)
 B.a4e=new A.a__(null)
 B.M6=s([B.Ub,B.c9,B.a4e],t.p)
-B.U_=new A.dd("Client Love","What our clients across Pakistan say",B.e,null)
+B.U0=new A.dd("Client Love","What our clients across Pakistan say",B.e,null)
 B.bk=new A.bB(null,16,null,null)
 B.a4y=new A.Jw(null)
-B.M8=s([B.U_,B.bk,B.a4y],t.p)
+B.M8=s([B.U0,B.bk,B.a4y],t.p)
 B.M9=s(["assets/hero/slide1.jpg","assets/hero/slide2.jpg","assets/hero/slide3.jpg","assets/hero/slide4.jpg"],t.s)
 B.aT=new A.f_(0,"icon")
 B.b_=new A.f_(1,"input")
@@ -100451,11 +100449,11 @@ B.MU=s([B.T8,B.T6,B.T5,B.T4,B.T7],A.ae("B<+(k,k,k)>"))
 B.MV=s([B.oM,B.oN,B.oO],A.ae("B<uI>"))
 B.CH=new A.eB("\ud83c\udf3f","Mughal Cues","Arches, jaali patterns, jewel tones & metallic accents re-imagined with modern restraint.",null)
 B.CF=new A.eB("\ud83c\udfb6","Cultural Programs","Qawwali nights, classical sets and regional folk curated for ambience & audience.",null)
-B.CM=new A.eB("\ud83d\udd6f\ufe0f","Tablescapes & Florals","Kashmiri florals, candlelight layers, and heirloom textures for intimate depth.",null)
+B.CL=new A.eB("\ud83d\udd6f\ufe0f","Tablescapes & Florals","Kashmiri florals, candlelight layers, and heirloom textures for intimate depth.",null)
 B.CI=new A.eB("\ud83c\udfa4","Production & AV","Stage craft, show-calling, sound & light design tied to the story of your event.",null)
 B.CD=new A.eB("\ud83e\udd1d","Vendor Stewardship","Trusted caterers, d\xe9cor, entertainment & technical partners \u2014 curated and managed end-to-end.",null)
 B.CG=new A.eB("\ud83d\uddfa\ufe0f","Guest Journey","Signage, wayfinding, concierge desks and hospitality woven into every moment.",null)
-B.MX=s([B.CH,B.CF,B.CM,B.CI,B.CD,B.CG],t.h6)
+B.MX=s([B.CH,B.CF,B.CL,B.CI,B.CD,B.CG],t.h6)
 B.RP=new A.r4(0,"get")
 B.RQ=new A.r4(1,"update")
 B.RR=new A.r4(2,"set")
@@ -100498,15 +100496,17 @@ B.a2F=new A.tb("\ud83e\udd47  Best Wedding Planner 2023",null)
 B.a2G=new A.tb("\ud83c\udf96\ufe0f  Corporate Excellence 2022",null)
 B.Ni=s([B.a2E,B.a2D,B.a2F,B.a2G],t.p)
 B.Nk=s(["S","M","T","W","T","F","S"],t.s)
-B.Np=s([B.d2,B.eM,B.jC,B.h7],A.ae("B<k7>"))
+B.CN=new A.eB("\ud83d\udc51","Royal Legacy","Since 2017, serving distinguished clientele with traditional values and sophisticated celebrations.",null)
+B.CJ=new A.eB("\ud83c\udfdb\ufe0f","Prestigious Venues","Partnerships with leading hotels, clubs and convention centers across the twin cities.",null)
+B.CO=new A.eB("\u2728","White-Glove Service","Personalized attention, meticulous planning and flawless execution for every detail.",null)
+B.CM=new A.eB("\ud83e\udd1d","Vendor Network","Top-tier caterers, d\xe9cor, AV & performers \u2014 curated, vetted, and managed end-to-end.",null)
+B.CE=new A.eB("\ud83d\udcca","Budget & Timeline","Transparent budgets, approvals & milestone tracking to keep events on time and on budget.",null)
+B.CK=new A.eB("\ud83d\udcde","24/7 Coordination","Dedicated event manager with round-the-clock support from planning to pack-down.",null)
+B.No=s([B.CN,B.CJ,B.CO,B.CM,B.CE,B.CK],t.h6)
+B.Nq=s([B.d2,B.eM,B.jC,B.h7],A.ae("B<k7>"))
 B.fA=new A.h(0,2)
 B.E_=new A.bk(0.75,B.O,B.o7,B.fA,1.5)
-B.Ns=s([B.E_],t.V)
-B.Wx=new A.rK(2850,"Events Orchestrated",null)
-B.Wy=new A.rK(30,"Years of Excellence",null)
-B.WA=new A.rK(650,"Venue Partners",null)
-B.Wz=new A.rK(99,"Client Satisfaction",null)
-B.Nt=s([B.Wx,B.Wy,B.WA,B.Wz],t.p)
+B.Nt=s([B.E_],t.V)
 B.NA=s(["Venue scouting","Design & d\xe9cor","Stage & AV","Hospitality desks","Guest logistics","Artists & entertainment","Security & protocol","Run-of-show","Live streaming","Media handover","Catering liaison","Floral design","Seating & layout","Invites & stationery","Transportation","Accommodation","Photography","Videography"],t.s)
 B.fl=s([B.d0,B.cH,B.h5,B.h6,B.jz],t.QP)
 B.qm=s(["Serena Islamabad","Marriott Islamabad","Islamabad Club","Jinnah Convention Ctr.","PC Bhurban","PC Rawalpindi","Bahria Auditorium"],t.s)
@@ -100522,8 +100522,8 @@ B.DN=new A.bk(0,B.O,B.bp,B.i,28)
 B.NC=s([B.DN],t.V)
 B.NM=s(["Shortlist venues and freeze dates","Mood boards and high-level budgets","Primary vendor holds (d\xe9cor/AV/catering)"],t.s)
 B.Sd=new A.a3("T-12 to T-8 weeks",B.NM)
-B.LT=s(["Detailed stage and floor plans","Menu curation and tasting (if applicable)","Artist curation and contracts"],t.s)
-B.Sj=new A.a3("T-8 to T-4 weeks",B.LT)
+B.LU=s(["Detailed stage and floor plans","Menu curation and tasting (if applicable)","Artist curation and contracts"],t.s)
+B.Sj=new A.a3("T-8 to T-4 weeks",B.LU)
 B.NW=s(["Run-of-show and responsibility matrix","Guest logistics & protocol mapping","Site recce with key vendors"],t.s)
 B.SF=new A.a3("T-4 to T-2 weeks",B.NW)
 B.M3=s(["On-site builds and technical checks","Full rehearsal and content review","Final sign-offs and contingency brief"],t.s)
@@ -100566,10 +100566,10 @@ B.NR=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","
 B.a3t=new A.tv("assets/images/team/mustafa.png","Mustafa","Founder & Lead Planner","Client-first planning, vendor management and end-to-end show calling.")
 B.a3u=new A.tv("assets/images/team/aqib.png","Aqib Khan","Operations & Production","Logistics, AV & staging execution \u2014 from load-in to flawless showtime.")
 B.NS=s([B.a3t,B.a3u],A.ae("B<tv>"))
-B.TW=new A.dd("Behind the Scenes Roles","It takes a village to deliver a flawless show",null,null)
+B.TX=new A.dd("Behind the Scenes Roles","It takes a village to deliver a flawless show",null,null)
 B.Nj=s(["Show-caller","Stage manager","Lighting engineer","Sound engineer","Runners","Guest relations","Security liaison","Backline tech","Floor manager","Content ops","Catering liaison"],t.s)
 B.a2L=new A.Gg(B.Nj,null)
-B.NT=s([B.TW,B.c9,B.a2L],t.p)
+B.NT=s([B.TX,B.c9,B.a2L],t.p)
 B.a4m=new A.mT("\ud83d\udcd8","Facebook",null)
 B.a4p=new A.mT("\ud83d\udcf7","Instagram",null)
 B.a4l=new A.mT("\ud83d\udc26","Twitter/X",null)
@@ -100623,7 +100623,7 @@ B.ei=new A.h(0,3)
 B.DX=new A.bk(-2,B.O,B.bp,B.ei,1)
 B.Eb=new A.bk(0,B.O,B.bW,B.fA,2)
 B.DR=new A.bk(0,B.O,B.bq,B.c5,5)
-B.LO=s([B.DX,B.Eb,B.DR],t.V)
+B.LP=s([B.DX,B.Eb,B.DR],t.V)
 B.DQ=new A.bk(-2,B.O,B.bp,B.ei,3)
 B.DT=new A.bk(0,B.O,B.bW,B.ei,4)
 B.Eo=new A.bk(0,B.O,B.bq,B.c5,8)
@@ -100666,7 +100666,7 @@ B.Qt=new A.h(0,24)
 B.Eh=new A.bk(3,B.O,B.bW,B.Qt,38)
 B.E8=new A.bk(8,B.O,B.bq,B.wJ,46)
 B.Mt=s([B.DV,B.Eh,B.E8],t.V)
-B.Pq=new A.c7([0,B.Nb,1,B.NF,2,B.LO,3,B.Nu,4,B.KW,6,B.LZ,8,B.Li,9,B.LA,12,B.Mc,16,B.Mb,24,B.Mt],A.ae("c7<o,Z<bk>>"))
+B.Pq=new A.c7([0,B.Nb,1,B.NF,2,B.LP,3,B.Nu,4,B.KW,6,B.LZ,8,B.Li,9,B.LA,12,B.Mc,16,B.Mb,24,B.Mt],A.ae("c7<o,Z<bk>>"))
 B.c1=new A.f(4294968065)
 B.m8=new A.aj(B.c1,!1,!1,!0,!1,B.t)
 B.bP=new A.f(4294968066)
@@ -101212,32 +101212,32 @@ B.MH=s([B.w3,null,null,B.dm],t.L)
 B.KO=s([B.w4,null,null,B.wi],t.L)
 B.NK=s([B.w5,null,null,B.lv],t.L)
 B.Nz=s([B.w6,null,null,B.fu],t.L)
-B.LD=s([B.w7,null,null,B.dn],t.L)
+B.LE=s([B.w7,null,null,B.dn],t.L)
 B.NP=s([B.w8,null,null,B.fv],t.L)
 B.Ny=s([B.w9,null,null,B.dp],t.L)
 B.Lz=s([B.wa,null,null,B.lw],t.L)
 B.KT=s([B.wb,null,null,B.dq],t.L)
-B.LP=s([B.wc,null,null,B.fw],t.L)
+B.LQ=s([B.wc,null,null,B.fw],t.L)
 B.Nm=s([B.wd,null,null,B.dr],t.L)
-B.No=s([B.we,null,null,B.fx],t.L)
-B.LF=s([B.fs,B.fs,B.ie,null],t.L)
+B.Np=s([B.we,null,null,B.fx],t.L)
+B.LG=s([B.fs,B.fs,B.ie,null],t.L)
 B.NL=s([B.ia,null,B.ia,null],t.L)
 B.Mj=s([B.c1,null,null,B.dn],t.L)
 B.Mk=s([B.bP,null,null,B.dp],t.L)
 B.Ml=s([B.bQ,null,null,B.dq],t.L)
 B.NN=s([B.c2,null,null,B.dr],t.L)
 B.Nw=s([B.lo,null,null,B.lw],t.L)
-B.LG=s([B.fr,B.fr,B.id,null],t.L)
+B.LH=s([B.fr,B.fr,B.id,null],t.L)
 B.MT=s([B.aW,null,null,B.dm],t.L)
 B.Mm=s([B.dj,null,null,B.fu],t.L)
 B.Lx=s([B.i9,null,null,B.lu],t.L)
 B.Mn=s([B.dk,null,null,B.fw],t.L)
 B.Nx=s([B.lp,null,null,B.lv],t.L)
-B.LH=s([B.ft,B.ft,B.ig,null],t.L)
+B.LI=s([B.ft,B.ft,B.ig,null],t.L)
 B.Mo=s([B.fp,null,null,B.fv],t.L)
 B.N0=s([B.fq,null,null,B.fx],t.L)
-B.LI=s([B.cS,B.cS,B.dl,null],t.L)
-B.PH=new A.c7(["*",B.Lt,"+",B.Nl,"-",B.M7,".",B.MH,"/",B.KO,"0",B.NK,"1",B.Nz,"2",B.LD,"3",B.NP,"4",B.Ny,"5",B.Lz,"6",B.KT,"7",B.LP,"8",B.Nm,"9",B.No,"Alt",B.LF,"AltGraph",B.NL,"ArrowDown",B.Mj,"ArrowLeft",B.Mk,"ArrowRight",B.Ml,"ArrowUp",B.NN,"Clear",B.Nw,"Control",B.LG,"Delete",B.MT,"End",B.Mm,"Enter",B.Lx,"Home",B.Mn,"Insert",B.Nx,"Meta",B.LH,"PageDown",B.Mo,"PageUp",B.N0,"Shift",B.LI],A.ae("c7<k,Z<f?>>"))
+B.LJ=s([B.cS,B.cS,B.dl,null],t.L)
+B.PH=new A.c7(["*",B.Lt,"+",B.Nl,"-",B.M7,".",B.MH,"/",B.KO,"0",B.NK,"1",B.Nz,"2",B.LE,"3",B.NP,"4",B.Ny,"5",B.Lz,"6",B.KT,"7",B.LQ,"8",B.Nm,"9",B.Np,"Alt",B.LG,"AltGraph",B.NL,"ArrowDown",B.Mj,"ArrowLeft",B.Mk,"ArrowRight",B.Ml,"ArrowUp",B.NN,"Clear",B.Nw,"Control",B.LH,"Delete",B.MT,"End",B.Mm,"Enter",B.Lx,"Home",B.Mn,"Insert",B.Nx,"Meta",B.LI,"PageDown",B.Mo,"PageUp",B.N0,"Shift",B.LJ],A.ae("c7<k,Z<f?>>"))
 B.J0=new A.lM(0,"arrayUnion")
 B.J1=new A.lM(1,"arrayRemove")
 B.J2=new A.lM(2,"delete")
@@ -101718,29 +101718,29 @@ B.T_=new A.a3(!0,!1)
 B.T0=new A.a3(!0,!0)
 B.T1=new A.a3(B.iY,B.iX)
 B.Tc=new A.dq(["gala","Cultural","Oct 28, 2024","Qawwali Heritage Night","Shakarparian Open-Air","Sufi Evenings","assets/portfolio/gala_3.jpg"])
-B.Td=new A.dq(["ceremony","Cultural","Oct 18, 2024","Mehfil-e-Mushaira","Pnca Open-Air Theatre","Literary Evening","assets/portfolio/ceremony_3.jpg"])
-B.Te=new A.dq(["ceremony","Academic","Jun 1, 2025","Graduate Honors Convocation","Convention Centre","University Ceremony","assets/portfolio/ceremony_2.jpg"])
-B.Tf=new A.dq(["corporate","Innovation","Apr 5, 2025","Product Launch Spectacular","Innovation Center, Tech District","Corporate Launch","assets/portfolio/corp_2.jpg"])
-B.Tg=new A.dq(["social","Family","Feb 2, 2025","Baby Welcome Dinner","Private Residence, F-8","Warm + Intimate","assets/portfolio/social_5.jpg"])
-B.Th=new A.dq(["gala","Charity","Sep 7, 2024","Hearts for Hope Charity Ball","Serena Hotel, Islamabad","Fundraising Gala","assets/portfolio/gala_2.jpg"])
-B.Ti=new A.dq(["wedding","Intimate","Nov 11, 2024","Nikkah by the Lake","Shakarparian Park, Islamabad","Sunset Ceremony","assets/portfolio/wedding_3.jpg"])
-B.Tj=new A.dq(["corporate","Townhall","Feb 12, 2025","ZenTech Global Town Hall","Bahria Auditorium, Rawalpindi","Employee Experience","assets/portfolio/corp_3.jpg"])
-B.Tk=new A.dq(["social","Milestone","Nov 22, 2024","Golden Anniversary Celebration","Historic Mansion, Uptown District","50 Years of Love","assets/portfolio/social_1.jpg"])
-B.Tl=new A.dq(["corporate","Expo","Mar 22, 2025","FutureTech Expo Booth + AV","Pak-China Center","Brand Experience","assets/portfolio/corp_5.jpg"])
-B.Tm=new A.dq(["social","Chic","May 18, 2025","Bridal Shower Brunch","Private Lawn, F-6 Islamabad","All-White Theme","assets/portfolio/social_3.jpg"])
-B.Tn=new A.dq(["ceremony","Exclusive","Aug 28, 2024","Private Investiture","Ambassador's Residence","Formal Protocol","assets/portfolio/ceremony_4.jpg"])
-B.To=new A.dq(["corporate","Summit","Aug 22, 2024","Leaders Strategy Summit","Jinnah Convention Centre, Islamabad","C-Suite Program","assets/portfolio/corp_4.jpg"])
-B.Tp=new A.dq(["wedding","Luxury","Jan 20, 2025","Royal Palace Wedding","Ch\xe2teau Elegance, French Riviera","Destination Wedding","assets/portfolio/wedding_2.jpg"])
-B.Tq=new A.dq(["gala","Royal","Jan 10, 2025","Winter Masquerade","Pearl Continental, Bhurban","Formal Ball","assets/portfolio/gala_4.jpg"])
-B.Tr=new A.dq(["corporate","Executive","Oct 8, 2024","Heritage Bank Annual Gala","Grand Ballroom, Metropolitan Hotel","Executive Business Event","assets/portfolio/corp_1.jpg"])
-B.Ts=new A.dq(["wedding","Featured","September 15, 2024","The Williams Estate Wedding","Rosewood Manor, English Countryside","Classical Garden Ceremony","assets/portfolio/wedding_1.jpg"])
-B.Tt=new A.dq(["wedding","Destination","May 25, 2025","Mountain Top Vows","PC Bhurban","Kashmiri Florals","assets/portfolio/wedding_5.jpg"])
+B.Td=new A.dq(["corporate","Innovation","Apr 5, 2025","Product Launch Spectacular","Innovation Center, Tech District","Corporate Launch","assets/portfolio/corp_2.jpg"])
+B.Te=new A.dq(["ceremony","Academic","Jun 1, 2025","Graduate Honors Convocation","Convention Centre","University Ceremony","assets/portfolio/ceremony_2.jpeg"])
+B.Tf=new A.dq(["social","Family","Feb 2, 2025","Baby Welcome Dinner","Private Residence, F-8","Warm + Intimate","assets/portfolio/social_5.jpg"])
+B.Tg=new A.dq(["ceremony","Cultural","Oct 18, 2024","Mehfil-e-Mushaira","Pnca Open-Air Theatre","Literary Evening","assets/portfolio/ceremony_3.jpeg"])
+B.Th=new A.dq(["corporate","Executive","Oct 8, 2024","Heritage Bank Annual Gala","Grand Ballroom, Metropolitan Hotel","Executive Business Event","assets/portfolio/corp_1.jpeg"])
+B.Ti=new A.dq(["gala","Charity","Sep 7, 2024","Hearts for Hope Charity Ball","Serena Hotel, Islamabad","Fundraising Gala","assets/portfolio/gala_2.jpg"])
+B.Tj=new A.dq(["wedding","Luxury","Jan 20, 2025","Royal Palace Wedding","Ch\xe2teau Elegance, French Riviera","Destination Wedding","assets/portfolio/wedding_2.jpeg"])
+B.Tk=new A.dq(["corporate","Townhall","Feb 12, 2025","ZenTech Global Town Hall","Bahria Auditorium, Rawalpindi","Employee Experience","assets/portfolio/corp_3.jpg"])
+B.Tl=new A.dq(["social","Milestone","Nov 22, 2024","Golden Anniversary Celebration","Historic Mansion, Uptown District","50 Years of Love","assets/portfolio/social_1.jpg"])
+B.Tm=new A.dq(["corporate","Expo","Mar 22, 2025","FutureTech Expo Booth + AV","Pak-China Center","Brand Experience","assets/portfolio/corp_5.jpg"])
+B.Tn=new A.dq(["social","Chic","May 18, 2025","Bridal Shower Brunch","Private Lawn, F-6 Islamabad","All-White Theme","assets/portfolio/social_3.jpg"])
+B.To=new A.dq(["wedding","Boutique","Apr 12, 2025","Courtyard Nikah","Heritage Haveli, Pindi","Minimal Luxe","assets/portfolio/wedding_6.jpeg"])
+B.Tp=new A.dq(["ceremony","Exclusive","Aug 28, 2024","Private Investiture","Ambassador's Residence","Formal Protocol","assets/portfolio/ceremony_4.jpeg"])
+B.Tq=new A.dq(["corporate","Summit","Aug 22, 2024","Leaders Strategy Summit","Jinnah Convention Centre, Islamabad","C-Suite Program","assets/portfolio/corp_4.jpg"])
+B.Tr=new A.dq(["wedding","Featured","September 15, 2024","The Williams Estate Wedding","Rosewood Manor, English Countryside","Classical Garden Ceremony","assets/portfolio/wedding_1.jpeg"])
+B.Ts=new A.dq(["wedding","Intimate","Nov 11, 2024","Nikkah by the Lake","Shakarparian Park, Islamabad","Sunset Ceremony","assets/portfolio/wedding_3.jpeg"])
+B.Tt=new A.dq(["gala","Royal","Jan 10, 2025","Winter Masquerade","Pearl Continental, Bhurban","Formal Ball","assets/portfolio/gala_4.jpg"])
 B.Tu=new A.dq(["gala","Premium","Dec 31, 2024","New Year's Excellence Gala","Metropolitan Museum of Art","Black Tie Sophistication","assets/portfolio/gala_1.jpg"])
-B.Tv=new A.dq(["social","Elegant","Mar 10, 2025","Spring Garden Party","Botanical Gardens Estate","Outdoor Celebration","assets/portfolio/social_2.jpg"])
-B.Tw=new A.dq(["ceremony","Distinguished","Feb 14, 2025","Excellence Awards Ceremony","Chamber of Commerce Hall","Recognition Event","assets/portfolio/ceremony_1.jpg"])
-B.Tx=new A.dq(["wedding","Boutique","Apr 12, 2025","Courtyard Nikah","Heritage Haveli, Pindi","Minimal Luxe","assets/portfolio/wedding_6.jpg"])
-B.Ty=new A.dq(["wedding","Signature","Mar 02, 2025","Baraat at Islamabad Club","Islamabad Club","Traditional Grandeur","assets/portfolio/wedding_4.jpg"])
-B.Tz=new A.dq(["social","VIP","Jul 14, 2024","Celebrity Birthday Soir\xe9e","Serena Rooftop","Red-Carpet Night","assets/portfolio/social_4.jpg"])
+B.Tv=new A.dq(["wedding","Destination","May 25, 2025","Mountain Top Vows","PC Bhurban","Kashmiri Florals","assets/portfolio/wedding_5.jpeg"])
+B.Tw=new A.dq(["social","Elegant","Mar 10, 2025","Spring Garden Party","Botanical Gardens Estate","Outdoor Celebration","assets/portfolio/social_2.jpg"])
+B.Tx=new A.dq(["wedding","Signature","Mar 02, 2025","Baraat at Islamabad Club","Islamabad Club","Traditional Grandeur","assets/portfolio/wedding_4.jpg"])
+B.Ty=new A.dq(["social","VIP","Jul 14, 2024","Celebrity Birthday Soir\xe9e","Serena Rooftop","Red-Carpet Night","assets/portfolio/social_4.jpg"])
+B.Tz=new A.dq(["ceremony","Distinguished","Feb 14, 2025","Excellence Awards Ceremony","Chamber of Commerce Hall","Recognition Event","assets/portfolio/ceremony_1.jpeg"])
 B.TA=new A.x(-1/0,-1/0,1/0,1/0)
 B.dv=new A.x(-1e9,-1e9,1e9,1e9)
 B.Ap=new A.wk(0,"start")
@@ -101789,13 +101789,13 @@ B.TO=new A.Eb(null,null,null,null,null,null,null,null,null,null,null)
 B.TP=new A.Ec(null,null,null,null,null,null,null,null,null,null,null,null)
 B.TQ=new A.Ed(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TS=new A.dd("Portfolio of Excellence","A glimpse of our most memorable celebrations",null,null)
-B.TT=new A.dd("Planning Packages","Choose a starting framework \u2014 we tailor every detail to your brief",null,null)
-B.TU=new A.dd("Our Distinguished Heritage","Three decades of creating exceptional moments with unwavering dedication to traditional sophistication",null,null)
-B.TV=new A.dd("What We Handle for You","From first call to curtain close, every moving part is covered",null,null)
-B.TX=new A.dd("Bespoke Services for Pakistan","South Asian weddings, corporate events, cultural nights and destination celebrations",null,null)
-B.TY=new A.dd("Popular Add-ons","Enhance any package with specialized services & experiences",null,null)
-B.TZ=new A.dd("Production Capabilities","Experienced teams, tested SOPs and reliable partners",null,null)
-B.U0=new A.dd("Our Distinguished Heritage","Since 1995 \u2014 a legacy of Pakistani elegance, tradition, and precise execution",null,null)
+B.TT=new A.dd("Our Distinguished Heritage","Since 2017 \u2014 a legacy of Pakistani elegance, tradition, and precise execution",null,null)
+B.TU=new A.dd("Planning Packages","Choose a starting framework \u2014 we tailor every detail to your brief",null,null)
+B.TV=new A.dd("Our Distinguished Heritage","Three decades of creating exceptional moments with unwavering dedication to traditional sophistication",null,null)
+B.TW=new A.dd("What We Handle for You","From first call to curtain close, every moving part is covered",null,null)
+B.TY=new A.dd("Bespoke Services for Pakistan","South Asian weddings, corporate events, cultural nights and destination celebrations",null,null)
+B.TZ=new A.dd("Popular Add-ons","Enhance any package with specialized services & experiences",null,null)
+B.U_=new A.dd("Production Capabilities","Experienced teams, tested SOPs and reliable partners",null,null)
 B.U1=new A.dd("What We Deliver","Comprehensive management with traditional elegance & modern production",null,null)
 B.U2=new A.dd("Excellence Measured","Three decades of creating unforgettable celebrations and exceeding expectations",B.e,null)
 B.U3=new A.dd("Signature Venues & Partnerships","Destinations and partners that shaped our journey in the twin cities & beyond",null,null)

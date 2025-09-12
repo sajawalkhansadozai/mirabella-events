@@ -185,9 +185,9 @@ class HomePage extends StatelessWidget {
                   mainAxisSpacing: spacing,
                   physics: const NeverScrollableScrollPhysics(),
                   children: const [
-                    StatCounter(target: 2850, label: 'Events Orchestrated'),
-                    StatCounter(target: 30, label: 'Years of Excellence'),
-                    StatCounter(target: 650, label: 'Venue Partners'),
+                    StatCounter(target: 250, label: 'Events Orchestrated'),
+                    StatCounter(target: 8, label: 'Years of Excellence'),
+                    StatCounter(target: 120, label: 'Venue Partners'),
                     StatCounter(target: 99, label: 'Client Satisfaction'),
                   ],
                 );
@@ -228,7 +228,7 @@ class HomePage extends StatelessWidget {
                     icon: '👑',
                     title: 'Royal Legacy',
                     body:
-                        'Since 1995, serving distinguished clientele with traditional values and sophisticated celebrations.',
+                        'Since 2017, serving distinguished clientele with traditional values and sophisticated celebrations.',
                   ),
                   AboutCard(
                     icon: '🏛️',

@@ -47,7 +47,7 @@ class HeritagePage extends StatelessWidget {
             const SectionHeader(
               title: 'Our Distinguished Heritage',
               subtitle:
-                  'Since 1995 — a legacy of Pakistani elegance, tradition, and precise execution',
+                  'Since 2017 — a legacy of Pakistani elegance, tradition, and precise execution',
             ),
             SizedBox(height: isSmall ? 16 : 24),
             LayoutBuilder(
@@ -119,7 +119,7 @@ class HeritagePage extends StatelessWidget {
             Column(
               children: [
                 _TimelineItem(
-                  year: '1995',
+                  year: '2017',
                   title: 'Founded in Islamabad',
                   desc:
                       'First boutique weddings & family celebrations across the twin cities.',
@@ -127,7 +127,7 @@ class HeritagePage extends StatelessWidget {
                   isVerySmall: isVerySmall,
                 ),
                 _TimelineItem(
-                  year: '2001',
+                  year: '2018',
                   title: 'Corporate Debut',
                   desc:
                       'First AGM & awards night; introduced run-of-show discipline & AV partners.',
@@ -135,7 +135,7 @@ class HeritagePage extends StatelessWidget {
                   isVerySmall: isVerySmall,
                 ),
                 _TimelineItem(
-                  year: '2008',
+                  year: '2019',
                   title: 'Destination North',
                   desc:
                       'Bhurban / Nathia Gali weddings with full guest logistics & vendor network.',
@@ -143,7 +143,7 @@ class HeritagePage extends StatelessWidget {
                   isVerySmall: isVerySmall,
                 ),
                 _TimelineItem(
-                  year: '2015',
+                  year: '2020',
                   title: 'In-house Show Calling',
                   desc:
                       'Production, stage management & creative decks brought under one roof.',
@@ -151,7 +151,7 @@ class HeritagePage extends StatelessWidget {
                   isVerySmall: isVerySmall,
                 ),
                 _TimelineItem(
-                  year: '2020',
+                  year: '2021',
                   title: 'Hybrid & Digital',
                   desc:
                       'Live streaming and hybrid programs for summits and launches.',

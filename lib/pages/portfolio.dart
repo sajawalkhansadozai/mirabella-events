@@ -58,7 +58,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'The Williams Estate Wedding',
         'Rosewood Manor, English Countryside',
         'Classical Garden Ceremony',
-        'assets/portfolio/wedding_1.jpg',
+        'assets/portfolio/wedding_1.jpeg',
       ),
       (
         'wedding',
@@ -67,7 +67,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Royal Palace Wedding',
         'Château Elegance, French Riviera',
         'Destination Wedding',
-        'assets/portfolio/wedding_2.jpg',
+        'assets/portfolio/wedding_2.jpeg',
       ),
       (
         'wedding',
@@ -76,7 +76,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Nikkah by the Lake',
         'Shakarparian Park, Islamabad',
         'Sunset Ceremony',
-        'assets/portfolio/wedding_3.jpg',
+        'assets/portfolio/wedding_3.jpeg',
       ),
       (
         'wedding',
@@ -96,7 +96,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Heritage Bank Annual Gala',
         'Grand Ballroom, Metropolitan Hotel',
         'Executive Business Event',
-        'assets/portfolio/corp_1.jpg',
+        'assets/portfolio/corp_1.jpeg',
       ),
       (
         'corporate',
@@ -210,7 +210,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Excellence Awards Ceremony',
         'Chamber of Commerce Hall',
         'Recognition Event',
-        'assets/portfolio/ceremony_1.jpg',
+        'assets/portfolio/ceremony_1.jpeg',
       ),
       (
         'ceremony',
@@ -219,7 +219,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Graduate Honors Convocation',
         'Convention Centre',
         'University Ceremony',
-        'assets/portfolio/ceremony_2.jpg',
+        'assets/portfolio/ceremony_2.jpeg',
       ),
       (
         'ceremony',
@@ -228,7 +228,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Mehfil-e-Mushaira',
         'Pnca Open-Air Theatre',
         'Literary Evening',
-        'assets/portfolio/ceremony_3.jpg',
+        'assets/portfolio/ceremony_3.jpeg',
       ),
       (
         'ceremony',
@@ -237,7 +237,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Private Investiture',
         'Ambassador\'s Residence',
         'Formal Protocol',
-        'assets/portfolio/ceremony_4.jpg',
+        'assets/portfolio/ceremony_4.jpeg',
       ),
 
       // More Weddings / Destination
@@ -248,7 +248,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Mountain Top Vows',
         'PC Bhurban',
         'Kashmiri Florals',
-        'assets/portfolio/wedding_5.jpg',
+        'assets/portfolio/wedding_5.jpeg',
       ),
       (
         'wedding',
@@ -257,7 +257,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
         'Courtyard Nikah',
         'Heritage Haveli, Pindi',
         'Minimal Luxe',
-        'assets/portfolio/wedding_6.jpg',
+        'assets/portfolio/wedding_6.jpeg',
       ),
       (
         'corporate',
