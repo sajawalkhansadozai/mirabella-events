@@ -24,6 +24,9 @@ class HomePage extends StatelessWidget {
       textScaler: TextScaler.linear(textScale.clamp(1.0, 1.25).toDouble()),
     );
 
+    // Key to scroll to the calculator section
+    final calculatorKey = GlobalKey();
+
     // ================= HERO (slider) =================
     final hero = _HeroSlider(
       images: const [
@@ -38,7 +41,17 @@ class HomePage extends StatelessWidget {
       body:
           'From Mehndi to Walima, corporate summits to cultural nights — we craft seamless experiences across Islamabad & Rawalpindi.',
       onPrimary: () => Navigator.pushNamed(context, '/services'),
-      onSecondary: () => Navigator.pushNamed(context, '/contact'),
+      onSecondary: () {
+        final ctx = calculatorKey.currentContext;
+        if (ctx != null) {
+          Scrollable.ensureVisible(
+            ctx,
+            duration: const Duration(milliseconds: 700),
+            curve: Curves.easeInOutCubic,
+            alignment: 0.1,
+          );
+        }
+      },
     );
 
     // ================ SERVICES PREVIEW (localized) ================
@@ -407,6 +420,7 @@ class HomePage extends StatelessWidget {
 
     // ================ PRICE CALCULATOR ================
     final priceCalculator = Container(
+      key: calculatorKey,
       color: AppColors.pearl,
       padding: const EdgeInsets.symmetric(vertical: 80),
       child: MaxWidth(child: PriceCalculator()),

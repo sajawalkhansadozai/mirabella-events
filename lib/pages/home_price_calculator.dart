@@ -114,6 +114,26 @@ class _PriceCalculatorState extends State<PriceCalculator>
     return double.tryParse(input) ?? 0;
   }
 
+  // Responsive font scale based on screen width (boosted for desktop)
+  double _fontScale(BuildContext context) {
+    final w = MediaQuery.of(context).size.width;
+    if (w < 360) return 0.95; // very small phones
+    if (w < 600) return 1.0; // phones
+    if (w < 900) return 1.15; // tablets / small laptop
+    if (w < 1200) return 1.30; // desktop
+    if (w < 1600) return 1.45; // large desktop
+    return 1.60; // ultra-wide
+  }
+
+  double _fs(BuildContext context, double base) {
+    final s = _fontScale(context);
+    final v = base * s;
+    // keep within a reasonable range but allow larger desktop scaling
+    final min = base * 0.9;
+    final max = base * 2.0;
+    return v.clamp(min, max);
+  }
+
   // Check if a complete menu is selected
   bool _isCompleteMenuSelected(String menuName) {
     final menuItems = menuDataWithPrices[menuName];
@@ -247,11 +267,11 @@ class _PriceCalculatorState extends State<PriceCalculator>
                 const SizedBox(width: 16),
                 Expanded(
                   child: Text(
-                    'Event Cost Calculator',
+                    'Get Quote',
                     style: TextStyle(
                       fontSize: MediaQuery.of(context).size.width < 600
-                          ? 20
-                          : 28,
+                          ? 40
+                          : 40,
                       fontWeight: FontWeight.bold,
                       color: AppColors.deepBurgundy,
                     ),
@@ -669,14 +689,14 @@ class _PriceCalculatorState extends State<PriceCalculator>
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            children: const [
-              Icon(Icons.receipt_long, color: Colors.white),
-              SizedBox(width: 12),
+            children: [
+              const Icon(Icons.receipt_long, color: Colors.white),
+              const SizedBox(width: 12),
               Expanded(
                 child: Text(
                   'Bill Calculator',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: _fs(context, 20),
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
@@ -686,11 +706,11 @@ class _PriceCalculatorState extends State<PriceCalculator>
           ),
           const SizedBox(height: 24),
 
-          const Text(
+          Text(
             'Enter Guest Count:',
             style: TextStyle(
               color: Colors.white,
-              fontSize: 16,
+              fontSize: _fs(context, 16),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -729,11 +749,11 @@ class _PriceCalculatorState extends State<PriceCalculator>
           const SizedBox(height: 24),
 
           if (selectedItems.isNotEmpty) ...[
-            const Text(
+            Text(
               'Selected Items with Prices:',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 16,
+                fontSize: _fs(context, 16),
                 fontWeight: FontWeight.w600,
               ),
             ),
@@ -775,11 +795,11 @@ class _PriceCalculatorState extends State<PriceCalculator>
             ),
             child: Column(
               children: [
-                const Text(
+                Text(
                   'Total Event Cost',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 18,
+                    fontSize: _fs(context, 18),
                     fontWeight: FontWeight.bold,
                   ),
                   textAlign: TextAlign.center,
@@ -787,9 +807,9 @@ class _PriceCalculatorState extends State<PriceCalculator>
                 const SizedBox(height: 8),
                 Text(
                   'RS. ${total.toInt()}',
-                  style: const TextStyle(
+                  style: TextStyle(
                     color: Colors.white,
-                    fontSize: 32,
+                    fontSize: _fs(context, 32),
                     fontWeight: FontWeight.bold,
                   ),
                   textAlign: TextAlign.center,
@@ -797,7 +817,10 @@ class _PriceCalculatorState extends State<PriceCalculator>
                 if (guests > 0 && selectedItems.isNotEmpty)
                   Text(
                     'Per Person: RS. ${perPerson.toInt()}',
-                    style: const TextStyle(color: Colors.white70, fontSize: 14),
+                    style: TextStyle(
+                      color: Colors.white70,
+                      fontSize: _fs(context, 14),
+                    ),
                     textAlign: TextAlign.center,
                   ),
                 if (guests > 0 && selectedItems.isNotEmpty) ...[
@@ -814,11 +837,11 @@ class _PriceCalculatorState extends State<PriceCalculator>
                     ),
                     child: Column(
                       children: [
-                        const Text(
+                        Text(
                           '📊 Price Breakdown',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 15,
+                            fontSize: _fs(context, 15),
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -826,20 +849,20 @@ class _PriceCalculatorState extends State<PriceCalculator>
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Expanded(
+                            Expanded(
                               child: Text(
                                 'Food Items Cost:',
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 13,
+                                  fontSize: _fs(context, 13),
                                 ),
                               ),
                             ),
                             Text(
                               'RS. ${(_baseFoodCost() * guests).toInt()}',
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 13,
+                                fontSize: _fs(context, 13),
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -852,17 +875,17 @@ class _PriceCalculatorState extends State<PriceCalculator>
                             Expanded(
                               child: Text(
                                 'Service Charges (${_averageServiceChargePercentage().toStringAsFixed(2)}%):',
-                                style: const TextStyle(
+                                style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 13,
+                                  fontSize: _fs(context, 13),
                                 ),
                               ),
                             ),
                             Text(
                               'RS. ${(_serviceChargesAmount() * guests).toInt()}',
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 13,
+                                fontSize: _fs(context, 13),
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -873,7 +896,7 @@ class _PriceCalculatorState extends State<PriceCalculator>
                           '(Decoration, Hall, Catering Management, Stage, Staff)',
                           style: TextStyle(
                             color: Colors.white.withOpacity(0.7),
-                            fontSize: 10,
+                            fontSize: _fs(context, 10),
                             fontStyle: FontStyle.italic,
                           ),
                           textAlign: TextAlign.center,
@@ -887,19 +910,19 @@ class _PriceCalculatorState extends State<PriceCalculator>
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text(
+                            Text(
                               'Total Amount:',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: _fs(context, 14),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                             Text(
                               'RS. ${total.toInt()}',
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: _fs(context, 14),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -917,20 +940,20 @@ class _PriceCalculatorState extends State<PriceCalculator>
                     ),
                     child: Column(
                       children: [
-                        const Text(
+                        Text(
                           '💡 Note:',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 13,
+                            fontSize: _fs(context, 13),
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         const SizedBox(height: 6),
-                        const Text(
+                        Text(
                           'All prices include decoration, hall, catering management, stage setup, and service staff charges distributed proportionally across menu items.',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 11,
+                            fontSize: _fs(context, 11),
                             height: 1.4,
                           ),
                           textAlign: TextAlign.center,
@@ -950,7 +973,10 @@ class _PriceCalculatorState extends State<PriceCalculator>
                 child: OutlinedButton.icon(
                   onPressed: () => Navigator.pushNamed(context, '/contact'),
                   icon: const Icon(Icons.phone),
-                  label: const Text('Contact'),
+                  label: Text(
+                    'Contact',
+                    style: TextStyle(fontSize: _fs(context, 14)),
+                  ),
                   style: OutlinedButton.styleFrom(
                     foregroundColor: Colors.white,
                     side: const BorderSide(color: Colors.white),
@@ -963,7 +989,10 @@ class _PriceCalculatorState extends State<PriceCalculator>
                 child: OutlinedButton.icon(
                   onPressed: clearAllSelections,
                   icon: const Icon(Icons.clear_all),
-                  label: const Text('Clear All'),
+                  label: Text(
+                    'Clear All',
+                    style: TextStyle(fontSize: _fs(context, 14)),
+                  ),
                   style: OutlinedButton.styleFrom(
                     foregroundColor: Colors.white70,
                     side: const BorderSide(color: Colors.white70),
@@ -990,13 +1019,13 @@ class _PriceCalculatorState extends State<PriceCalculator>
         children: [
           Text(
             label,
-            style: const TextStyle(color: Colors.white, fontSize: 16),
+            style: TextStyle(color: Colors.white, fontSize: _fs(context, 16)),
           ),
           Text(
             value,
-            style: const TextStyle(
+            style: TextStyle(
               color: AppColors.primaryGold,
-              fontSize: 16,
+              fontSize: _fs(context, 16),
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -1027,17 +1056,17 @@ class _PriceCalculatorState extends State<PriceCalculator>
               children: [
                 Text(
                   title,
-                  style: const TextStyle(
+                  style: TextStyle(
                     color: Colors.white,
-                    fontSize: 13,
+                    fontSize: _fs(context, 13),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
                 Text(
                   subtitle,
-                  style: const TextStyle(
+                  style: TextStyle(
                     color: AppColors.primaryGold,
-                    fontSize: 11,
+                    fontSize: _fs(context, 11),
                   ),
                 ),
               ],

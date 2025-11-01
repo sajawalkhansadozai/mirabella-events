@@ -205,12 +205,36 @@ class _HeroSliderState extends State<_HeroSlider> {
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: AppColors.primaryGold,
                                       foregroundColor: Colors.white,
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 22,
-                                        vertical: 14,
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: w < 360
+                                            ? 16
+                                            : w < 540
+                                            ? 20
+                                            : w < 900
+                                            ? 32
+                                            : 44,
+                                        vertical: w < 360
+                                            ? 10
+                                            : w < 540
+                                            ? 12
+                                            : w < 900
+                                            ? 16
+                                            : 22,
+                                      ),
+                                      textStyle: TextStyle(
+                                        fontSize: w < 360
+                                            ? 14
+                                            : w < 540
+                                            ? 16
+                                            : w < 900
+                                            ? 20
+                                            : 24,
+                                        fontWeight: FontWeight.w700,
                                       ),
                                       shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(12),
+                                        borderRadius: BorderRadius.circular(
+                                          w < 540 ? 12 : 14,
+                                        ),
                                       ),
                                     ),
                                     onPressed: widget.onPrimary,
@@ -223,12 +247,36 @@ class _HeroSliderState extends State<_HeroSlider> {
                                         color: Colors.white,
                                         width: 2,
                                       ),
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 22,
-                                        vertical: 14,
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: w < 360
+                                            ? 16
+                                            : w < 540
+                                            ? 20
+                                            : w < 900
+                                            ? 32
+                                            : 44,
+                                        vertical: w < 360
+                                            ? 10
+                                            : w < 540
+                                            ? 12
+                                            : w < 900
+                                            ? 16
+                                            : 22,
+                                      ),
+                                      textStyle: TextStyle(
+                                        fontSize: w < 360
+                                            ? 14
+                                            : w < 540
+                                            ? 16
+                                            : w < 900
+                                            ? 20
+                                            : 24,
+                                        fontWeight: FontWeight.w700,
                                       ),
                                       shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(12),
+                                        borderRadius: BorderRadius.circular(
+                                          w < 540 ? 12 : 14,
+                                        ),
                                       ),
                                     ),
                                     onPressed: widget.onSecondary,
